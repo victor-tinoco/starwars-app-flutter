@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "931128243621",
+    "firebase_url": "https://starwars-cf1dc.firebaseio.com",
+    "project_id": "starwars-cf1dc",
+    "storage_bucket": "starwars-cf1dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931128243621:android:f8ecb4f55e613d0d85644c",
+        "android_client_info": {
+          "package_name": "com.example.flutter_starwars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931128243621-69h5948iicp1j8s2ggfflfkjlfl9hesa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuHfcavs2u6SZuZLi7T_54li70ihcX9yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931128243621-69h5948iicp1j8s2ggfflfkjlfl9hesa.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "931128243621-q5kalrinhe1m76eb5e786p3r31pinj9t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "br.com.tinoco.starwars-app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

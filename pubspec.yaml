@@ -1,0 +1,46 @@
+name: flutter_starwars
+description: Replicando o app do StarWars em Flutter.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^0.4.4+3
+  firebase_auth: ^0.16.0
+  cupertino_icons: ^0.1.2
+  sliding_sheet: ^0.2.11
+  flutter_staggered_animations: "^0.1.2"
+  dio: ^3.0.0
+  mobx:
+  flutter_mobx:
+  get_it:
+  
+
+dev_dependencies:
+  mobx_codegen:
+  build_runner:
+  flutter_test:
+    sdk: flutter
+  mockito:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - assets/images/
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display-Regular.otf
+        - asset: assets/fonts/SF-Pro-Display-Medium.otf
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display-Bold.otf
+          weight: 700
+    - family: Avenir
+      fonts:
+        - asset: assets/fonts/Avenir-Light.otf
+        - asset: assets/fonts/Avenir-Black.otf
+          weight: 700
